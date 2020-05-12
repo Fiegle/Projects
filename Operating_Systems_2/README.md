@@ -6,6 +6,10 @@ Contributors
 Tate Bacaner tb15j
 Jason Fiegle jaf16d
 
+Description
+-----------
+Check project2_description for information on constraints and requirements for this project
+
 File Listing
 ------------
 Part 1/empty.c:
