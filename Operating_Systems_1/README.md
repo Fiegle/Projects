@@ -6,6 +6,10 @@ Contributors
 Tate Bacaner tb15j
 Jason Fiegle jaf16d
 
+Description
+-----------
+This project serves to emulate bash shell done from C code with the capability to execute unix commands with piping, I/O redirection and other unix implementations as can be seen from the Documentation of Group Member Contribution Section.
+
 File Listing
 ------------
 main.c  : Contains every part of the project from the division of labor. 
