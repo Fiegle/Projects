@@ -6,6 +6,10 @@ Contributors
 Tate Bacaner tb15j
 Jason Fiegle jaf16d
 
+Description
+-----------
+Project3 pdf contains information about requirements and constraints for the project
+
 File Listing
 ------------
 main.c:
