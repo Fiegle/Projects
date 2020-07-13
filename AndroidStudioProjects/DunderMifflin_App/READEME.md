@@ -1,7 +1,7 @@
 DUNDER MIFFLIN APP README 7/13/2020
 --------------------------------------
 
-NOTE: I SUGGEST WATCHING THE DEMO ON YOUTUBE HERE
+NOTE: I SUGGEST WATCHING THE DEMO ON YOUTUBE HERE 
 [Youtube Demo](https://www.youtube.com/watch?v=e6lyrYpYxMs)
 
 Contributors
@@ -11,11 +11,17 @@ Jason Fiegle
 File Listing
 ------------
 MainActivity.java  : Contains the code for showcasing the login page of the application
+
 RegisterActivity.java  : Contains the code for showcasing the registration page of the application
+
 EmployeeActivity.java  : Showcases the main employee page that is shown once signed into the database. This is where most activity will occur, where sales are inputted and where managers can navigate through the different employees of their respective branch.
+
 EmployeeModel.java : Contains the EmployeeModel Object that pulls from the employee table in the SQLite Database and is the object for the user themself.
+
 SaleModel.java :  Contains the SaleModel Object that is used to store sale data in the database (Note: will be improved in the next few days).
+
 EmployeeRecViewAdapter.java : Contains the adapter for the RecyclerView which is shown for managers to see and interact with their employees within their branch.
+
 AddSaleActivity.java: Contains the code for showcasing the add sale page of the application.
 
 
