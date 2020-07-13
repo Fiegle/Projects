@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parentList"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:padding="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="15dp"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="Employee Name"
+            android:textStyle="bold"
+            android:textSize="10sp"
+            android:layout_marginTop="7dp"/>
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="7dp"
+            android:text="Employee Email"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:textSize="10sp"
+            android:layout_marginStart="5dp"/>
+
+        <ImageView
+            android:id="@+id/employeeImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/txtEmail"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/dmblue" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

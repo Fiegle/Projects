@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".EmployeeActivity"
+        android:padding="10dp"
+        android:id="@+id/EmployeeLayout">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RelativePic">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/dmblue"
+            android:id="@+id/imgProfile"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/btnChange"
+            android:text="Change Picture"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            android:textStyle="bold"
+            android:textColor="@color/White"
+            android:backgroundTint="@color/HalfVisible"/>
+    </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/RelativePic"
+            android:id="@+id/txtName"
+            android:hint="Full Name"
+            android:layout_marginTop="40dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/RelativePic"
+            android:layout_below="@id/txtName"
+            android:id="@+id/txtEmail"
+            android:hint="Email"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+
+            android:textStyle="italic"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/RelativePic"
+            android:layout_below="@id/txtEmail"
+            android:id="@+id/txtBranch"
+            android:hint="Branch"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+
+            android:textStyle="italic"/>
+
+        <TextView
+            android:id="@+id/txtStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtEmail"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/txtBranch"
+            android:hint="EMP Status"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtSales"
+            android:text="Recent Sales"
+            android:layout_below="@id/RelativePic"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFF"
+            android:id="@+id/layout2"
+            android:layout_below="@id/RelativePic"
+            android:layout_alignTop="@+id/txtSales"
+            android:layout_toRightOf="@+id/txtSales">
+            <Spinner
+                android:id="@+id/spnSort"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+        </RelativeLayout>
+
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:id="@+id/lstSales"
+            android:layout_below="@+id/txtSales"
+            android:padding="10dp"
+            android:layout_marginTop="5dp"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAdd"
+            android:layout_below="@id/lstSales"
+            android:backgroundTint="@color/DMblue"
+            android:text="Add Sale"
+            android:layout_alignParentRight="true"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/scrollViewForRec"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/btnAdd">
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/employeeRecyclerView"/>
+            </ScrollView>
+
+
+
+    </RelativeLayout>
