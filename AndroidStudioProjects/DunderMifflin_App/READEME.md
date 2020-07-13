@@ -4,7 +4,7 @@ DUNDER MIFFLIN APP README 7/13/2020
 NOTE: I SUGGEST WATCHING THE DEMO ON YOUTUBE HERE... 
 [YOUTUBE DEMO](https://www.youtube.com/watch?v=e6lyrYpYxMs)
 
-<img src = "Breakdown_App_1.png width = 300">
+<img src = "Breakdown_App_1.png" width = "300">
 
 ![](Breakdown_App_1.png)
 
