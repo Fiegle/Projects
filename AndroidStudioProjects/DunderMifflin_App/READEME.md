@@ -3,8 +3,9 @@ DUNDER MIFFLIN APP README 7/13/2020
 
 NOTE: I SUGGEST WATCHING THE DEMO ON YOUTUBE HERE... 
 [YOUTUBE DEMO](https://www.youtube.com/watch?v=e6lyrYpYxMs)
-![Thumbnail](/Projects/AndroidStudioProjects/DunderMifflin_App/Breakdown_App_1.png)
-Format: ![Dunder Mifflin Application Demo Thumbnail](url)
+
+
+![](Breakdown_App_1.png)
 
 
 Contributors
