@@ -1,8 +1,8 @@
 DUNDER MIFFLIN APP README 7/13/2020
 --------------------------------------
 
-NOTE: I SUGGEST WATCHING THE DEMO ON YOUTUBE HERE 
-[Youtube Demo](https://www.youtube.com/watch?v=e6lyrYpYxMs)
+NOTE: I SUGGEST WATCHING THE DEMO ON YOUTUBE HERE... 
+[YOUTUBE DEMO](https://www.youtube.com/watch?v=e6lyrYpYxMs)
 
 Contributors
 ------------
