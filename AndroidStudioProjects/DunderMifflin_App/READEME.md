@@ -6,8 +6,6 @@ NOTE: I SUGGEST WATCHING THE DEMO ON YOUTUBE HERE...
 
 <img src = "Breakdown_App_1.png" width = "300">
 
-![](Breakdown_App_1.png)
-
 
 Contributors
 ------------
